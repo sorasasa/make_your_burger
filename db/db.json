@@ -1,0 +1,122 @@
+{
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      },
+      {
+        "id": 5,
+        "tipo": "Pão Mexicano"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 5,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 6,
+        "tipo": "Pepino"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "nome": "Namu",
+      "pao": "Integral",
+      "carne": "Picanha",
+      "opcionais": [
+        "Tomate",
+        "Pepino",
+        "Cebola roxa",
+        "Salame"
+      ],
+      "status": "Finalizado",
+      "id": 4
+    },
+    {
+      "nome": "Gui",
+      "pao": "Parmesão e Orégano",
+      "carne": "Maminha",
+      "opcionais": [
+        "Bacon",
+        "Tomate"
+      ],
+      "status": "Finalizado",
+      "id": 5
+    },
+    {
+      "nome": "Mimi",
+      "pao": "3 Queijos",
+      "carne": "Picanha",
+      "opcionais": [
+        "Tomate",
+        "Pepino",
+        "Salame"
+      ],
+      "status": "Em produção",
+      "id": 6
+    }
+  ]
+}
